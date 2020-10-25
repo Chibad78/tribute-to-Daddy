@@ -8,8 +8,8 @@ E5E6E4- platinum
 /*.....General styling....*/
 
 body {
-  background-image: url(../images/stacey-gabrielle-koenitz-rozells-kSY5T6js2KE-unsplash.jpg);
-  background-position: center;
+  background-image: url(../images/iphone.jpg);
+  background-position: center bottom;
   background-size: cover;
   background-attachment: fixed;
   background-color: skyblue; /*...fall back for older browsers...*/
@@ -227,3 +227,15 @@ blockquote p {
     padding: 1.9%;
   }
 }
+/* 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background-image: url(../images/iphone.jpg);
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  body {
+    background-image: url(../images/iphone.jpg);
+  }
+} */
